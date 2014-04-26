@@ -12,11 +12,13 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'haml'
 gem 'quiet_assets'
 
-# JS Assets
-gem 'jquery-rails'
+# Angular Gems
 gem 'angularjs-rails'
-gem 'angular-rails-templates'
-gem 'ngmin-rails'
+gem 'angular-rails-templates' # => Precompiles haml :) templates to $templateCache
+gem 'ngmin-rails'             # => Adds annotation to prevent minification problem
+
+# Assets Gems
+gem 'bootstrap-sass'
 
 # API Serializer
 gem 'active_model_serializers'
@@ -24,7 +26,7 @@ gem 'active_model_serializers'
 # Test
 gem 'rspec-rails', group: [:development, :test]
 
-gem 'spring',        group: :development
+gem 'spring', group: :development
 
 
 
