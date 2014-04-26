@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source 'https://rails-assets.org'
 
 gem 'rails', '4.1.0'
 
@@ -19,6 +20,8 @@ gem 'ngmin-rails'             # => Adds annotation to prevent minification probl
 
 # Assets Gems
 gem 'bootstrap-sass'
+gem 'rails-assets-restangular'
+gem 'rails-assets-underscore'
 
 # API Serializer
 gem 'active_model_serializers'
