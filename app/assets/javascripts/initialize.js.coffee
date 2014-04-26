@@ -1,1 +1,1 @@
-angular.module('bigb', ['ngRoute', 'templates'])
+angular.module('bigb', ['ngRoute', 'templates'])angular.module('bigb', ['ngRoute', 'templates', 'restangular'])
