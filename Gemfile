@@ -26,7 +26,13 @@ gem 'active_model_serializers'
 # Test
 gem 'rspec-rails', group: [:development, :test]
 
-gem 'spring', group: :development
+# Developer Happiness
+group :development do
+  gem 'pry-rails'
+  gem 'spring'
+  gem 'guard-livereload'
+  gem 'guard-rspec'
+end
 
 
 
