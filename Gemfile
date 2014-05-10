@@ -30,11 +30,15 @@ gem 'active_model_serializers'
 gem 'rspec-rails', group: [:development, :test]
 
 # Developer Happiness
-group :development do
+group :development, :test do
   gem 'pry-rails'
   gem 'spring'
   gem 'guard-livereload'
   gem 'guard-rspec'
+  gem 'dotenv-rails'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'awesome_print'
 end
 
 
