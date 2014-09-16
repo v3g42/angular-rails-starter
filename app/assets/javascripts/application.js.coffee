@@ -1,8 +1,6 @@
-#= require underscore
 #= require angular
 #= require angular-route
-#= require restangular
+#= require angular-resource
 #= require initialize
-#= require_tree ./templates
 #= require routes
 #= require_tree .

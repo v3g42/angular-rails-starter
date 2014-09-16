@@ -4,7 +4,7 @@ source 'https://rails-assets.org'
 gem 'rails', '4.1.1'
 
 # DB
-gem 'pg'
+gem 'mongoid'
 
 # Assets and Preprocessing
 gem 'sass-rails', '~> 4.0.3'
@@ -15,13 +15,11 @@ gem 'quiet_assets'
 
 # Angular Gems
 gem 'angularjs-rails'
-gem 'angular-rails-templates' # => Precompiles haml :) templates to $templateCache
-gem 'ngmin-rails'             # => Adds annotation to prevent minification problem
-
 # Assets Gems
 gem 'bootstrap-sass'
-gem 'rails-assets-restangular'
-gem 'rails-assets-underscore'
+
+gem 'slim-rails'
+
 
 # API Serializer
 gem 'active_model_serializers'

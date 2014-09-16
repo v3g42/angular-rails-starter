@@ -1,4 +1,2 @@
-angular.module('bigb', ['ngRoute', 'templates'])
+angular.module('specommerce', ['ngRoute', 'ngResource'])
 
-angular.module('bigb').config (RestangularProvider) ->
-  RestangularProvider.setBaseUrl('/api')
